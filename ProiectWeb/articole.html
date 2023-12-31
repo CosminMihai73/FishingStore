@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserare Articol</title>
+</head>
+<body>
+
+<h2>Inserare Articol</h2>
+
+<form action="articole.php" method="post">
+    <label for="title">Titlu:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="image_url">URL Imagine:</label>
+    <input type="text" id="image_url" name="image_url" required>
+
+    <label for="description">Descriere:</label>
+    <textarea id="description" name="description" rows="4" required></textarea>
+
+    <label for="pret">pret</label>
+    <input type="text" id="pret" name="pret" required>
+
+    <input type="submit" value="Adaugă Articol">
+</form>
+
+</body>
+</html>
