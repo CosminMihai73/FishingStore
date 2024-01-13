@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/office.css">
+    <title>Inserare Articol</title>
+</head>
+<body>
+
+
+
+<form action="articole.php" method="post">
+    <label for="title">Titlu:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="image_url">URL Imagine:</label>
+    <input type="text" id="image_url" name="image_url" required>
+
+    <label for="description">Descriere:</label>
+    <textarea id="description" name="description" rows="4" required></textarea>
+
+    <label for="pret">pret</label>
+    <input type="text" id="pret" name="pret" required>
+
+    <label for="tag">tag</label>
+    <input type="text" id="tag" name="tag" required>
+
+    <input type="submit" value="Adaugă Articol">
+</form>
+    <a href="pagina-logat.php"><button class="inapoi">Inapoi</button></a>
+
+</body>
+</html>

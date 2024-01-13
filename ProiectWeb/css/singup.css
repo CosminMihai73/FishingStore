@@ -1,0 +1,181 @@
+/* Stilizare pentru formularul de login */
+.login-form {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    color: white;
+  }
+  
+  .login-form h2 {
+    color: #fff;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+  }
+  
+  .button4 {
+    background-color: #fff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto; /* Ajustează pentru a centra butonul */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button4:hover {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+  }
+  
+  .signup-link a {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-link a:hover {
+    background-color: #45a049;
+  }
+  .signup-form {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    color: white;
+  }
+  
+  .signup-form h2 {
+    color: #fff;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .signup-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+  }
+  
+  .button5 {
+    background-color: #fff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button5:hover {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+  }
+  
+  .signup-link a {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-link a:hover {
+    background-color: #45a049;
+  }
+.header {
+  position: relative;
+}
+
+.welcome-section {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #ddfcb8;
+  text-align: center;
+}
+
+.welcome-message {
+  margin-bottom: 10px;
+}
+
+.button6 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button6:hover {
+  background-color: #45a049;
+}
+.schimbare {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.schimbare:hover {
+  background-color: #45a049;
+}
